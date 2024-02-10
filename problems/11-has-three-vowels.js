@@ -16,11 +16,22 @@ console.log(hasThreeVowels('go home'));         //  false
 
 */
 
-let hasThreeVowels = function(string) {
-    // Your code here 
+let hasThreeVowels = function (string) {
+    //map it to put the vowels in the array
+    let vowels = 'AEIOUaeiou'
+    let uniqueVowels = [];
+    let word = string.split('')
+
+    word.forEach(char => {
+        if (vowels.includes(char) && !uniqueVowels.includes(char)) {
+            uniqueVowels.push(char);
+        }
+    })
+
+    return uniqueVowels.length >= 3;
 };
 
-// Your code here 
+// Your code here
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 

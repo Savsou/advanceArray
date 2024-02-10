@@ -10,8 +10,11 @@ console.log(unique([11, 7, 8, 10, 8, 7, 7])); // [11, 7, 8, 10]
 console.log(unique(['a', 'b', 'c', 'b'])); // ['a', 'b', 'c']
 */
 
-let unique = function(array) {
-    // Your code here 
+let unique = function (array) {
+    let uniqueArray = [];
+
+    array.forEach()
+
 };
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
