@@ -13,8 +13,14 @@ console.log(unique(['a', 'b', 'c', 'b'])); // ['a', 'b', 'c']
 let unique = function (array) {
     let uniqueArray = [];
 
-    array.forEach()
+    array.map(num => {
+        if (!uniqueArray.includes(num)) {
+            uniqueArray.push(num)
+        }
+        return num
+    })
 
+    return uniqueArray
 };
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/

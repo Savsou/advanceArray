@@ -31,8 +31,6 @@ let hasThreeVowels = function (string) {
     return uniqueVowels.length >= 3;
 };
 
-// Your code here
-
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
